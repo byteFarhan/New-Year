@@ -11,7 +11,7 @@ p {
 }
 body {
   max-width: 1280px;
-  margin: 30px auto 0;
+  margin: 50px auto 0;
 }
 .font-merriweather {
   font-family: "Merriweather", serif;
@@ -27,7 +27,7 @@ body {
 }
 
 .banner {
-  background: linear-gradient(to right, #070211, rgba(7, 2, 17, 0)),
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner\ Image.png") no-repeat center;
   /* background-blend-mode: overlay; */
   /* background-image: linear-gradient(); */
@@ -72,7 +72,7 @@ body {
   margin-bottom: 10px;
 }
 .greeding {
-  background: linear-gradient(to right, #070211, rgba(7, 2, 17, 0)),
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Vectorrr.png") no-repeat center;
   background-size: cover;
   padding: 80px;
@@ -132,4 +132,43 @@ body {
   font-size: 20px;
   font-weight: 500;
   margin: 30px auto;
+  cursor: pointer;
+}
+.coming-soon {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+  /* border: 1px solid red; */
+}
+.coming-soon .left-contant {
+  width: 35%;
+}
+.coming-soon .left-contant h3 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+.coming-soon .right-content {
+  width: 25%;
+}
+.coming-soon .right-content h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.coming-soon .right-content p {
+  margin-bottom: 20px;
+}
+.coming-soon .image {
+  /* width: 35%; */
+  padding: 20px;
+  border: 10px solid #f00;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coming-soon .image img {
+  object-fit: cover;
 }
