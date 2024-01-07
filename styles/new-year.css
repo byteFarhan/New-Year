@@ -105,3 +105,31 @@ body {
   cursor: pointer;
   margin-left: 0;
 }
+.event-details {
+  /* background: linear-gradient(to top, #fff); */
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 120px 0;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.event-details h5 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #070211;
+}
+.event-details button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px auto;
+}
