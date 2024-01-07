@@ -16,12 +16,22 @@ body {
 .font-merriweather {
   font-family: "Merriweather", serif;
 }
+.text-primary {
+  color: #f00;
+}
+.text-secondary {
+  color: #070211;
+}
+.bg-primary {
+  background-color: #f00;
+}
+
 .banner {
   background: linear-gradient(to right, #070211, rgba(7, 2, 17, 0)),
     url("../resources/Banner\ Image.png") no-repeat center;
   /* background-blend-mode: overlay; */
-  /* background-position:; */
   /* background-image: linear-gradient(); */
+  /* background-position: center; */
   background-size: cover;
   color: white;
   text-align: center;
@@ -38,4 +48,26 @@ body {
   font-size: 72px;
   font-weight: 900px;
   line-height: 95px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto;
+}
+.discount {
+  font-size: 88px;
+  font-weight: 700;
+}
+.categories h6 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.categories h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
