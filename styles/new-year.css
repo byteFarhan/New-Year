@@ -179,6 +179,45 @@ main {
 .coming-soon .image img {
   object-fit: cover;
 }
+.subscribe {
+  padding: 100px 150px;
+  text-align: center;
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribe input {
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  /* outline: none; */
+  border: none;
+}
+.subscribe button {
+  background: #f00;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
 footer {
   background: #070211;
   padding: 100px 0;
