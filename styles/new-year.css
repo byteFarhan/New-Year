@@ -71,3 +71,37 @@ body {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.greeding {
+  background: linear-gradient(to right, #070211, rgba(7, 2, 17, 0)),
+    url("../resources/Vectorrr.png") no-repeat center;
+  background-size: cover;
+  padding: 80px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.greeding .greeding-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 24px;
+}
+.greeding .greeding-description {
+  color: #ffffffcc;
+  margin-bottom: 40px;
+}
+.greeding button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 0;
+}
