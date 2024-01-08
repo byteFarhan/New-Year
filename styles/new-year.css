@@ -179,6 +179,20 @@ main {
 .coming-soon .image img {
   object-fit: cover;
 }
+.holidays-sale {
+  margin-bottom: 120px;
+  text-align: center;
+}
+.holidays-sale .holidays-sale-title {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holidays-sale .holidays-sale-description {
+  margin: 20px auto;
+  width: 70%;
+}
 .subscribe {
   padding: 100px 150px;
   text-align: center;
